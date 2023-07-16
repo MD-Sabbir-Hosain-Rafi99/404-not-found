@@ -1,10 +1,10 @@
-*{
+/* *{
   margin: 0;
   padding: 0;
-}
+} */
 
 .main-body{
-  padding: 50px;
+  margin: 50px;
 }
 
 .error-doll-pic{
@@ -17,4 +17,60 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 80px;
+}
+
+.btn-primary{
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 20px;
+  font-size: 10px;
+}
+
+
+.heading2-area{
+  margin-bottom: 10px;
+  font-size: 50px;
+}
+
+.para-area{
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-top: 280px;
+}
+
+@media screen and (max-width: 576px) {
+  .banner{
+    flex-direction: column;
+    margin: 5px 5px 60px 5px;
+  }
+
+  
+  .heading2-area{
+    font-size: 40px;
+    margin-bottom: 0px;
+    white-space: nowrap;
+    
+  }
+
+  .para-area{
+    white-space: nowrap;
+  }
+
+  .error-doll-pic{
+    width: 250px;
+    height: 250px;
+    margin: 60px 0px 0px 0px;
+  }
+
+  footer{
+    margin-top: 0px;
+  }
+
 }
